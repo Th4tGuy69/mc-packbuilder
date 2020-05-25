@@ -18,12 +18,6 @@ html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: 
     /**-webkit-app-region: drag;*/
 }
 
-#Text:hover
-{
-    background-color: red;
-
-}
-
 #buttons
 {
     width: 100%;
@@ -35,12 +29,5 @@ html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: 
 {
 
     float: right;
-
-}
-
-#close:hover
-{
-
-    background-color: red;
 
 }
