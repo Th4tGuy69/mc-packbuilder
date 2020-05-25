@@ -1,3 +1,6 @@
+//npm install -g electron
+//npm install -g mc-curseforge-api
+
 const { app, BrowserWindow } = require('electron')
 
 function createWindow() 
