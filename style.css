@@ -1,4 +1,4 @@
-html, body {margin:0;padding:0;height:100%;background-color : #36393f;}
+html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: hidden}
 
 #body
 {
@@ -26,6 +26,59 @@ html, body {margin:0;padding:0;height:100%;background-color : #36393f;}
     display:block;
     
 } 
+
+::-webkit-scrollbar 
+{
+    width: 0px;                 /* Remove scrollbar space */
+    background: transparent;    /* Optional: just make scrollbar invisible */
+}
+
+#listBox
+{
+    margin-left : 2.5%;
+    margin-right : 2.5%;
+    margin-top: 2%;
+    width : 95%;
+    height : 90%;
+    background-color: #23272A;
+    overflow-y: auto;
+    
+
+}
+
+#listItem
+{
+
+    background-color: #36393f;
+    margin-left : 2.5%;
+    margin-right : 2.5%;
+    margin-top : 25px;
+    width : 95%;
+    height : 100px;
+    display: inline-block;
+    border-radius: 0px 25px 25px 0px;
+
+}
+
+.listHeader
+{
+
+    color : white;
+    display: inline-block;
+    transform: translateY(-45%);
+    font-size: 2rem;
+
+}
+
+.listText
+{
+
+    color : white;
+    font-size: 1rem;
+    display: inline-block;
+    transform: translateX(-21%);
+
+}
 
 #navItem.active
 {
