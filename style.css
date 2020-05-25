@@ -1,4 +1,4 @@
-html, body {margin:0;padding:0;height:100%;}
+html, body {margin:0;padding:0;height:100%;background-color : #36393f;}
 
 #body
 {
@@ -57,5 +57,16 @@ html, body {margin:0;padding:0;height:100%;}
     color : white;
     text-align: center;
     transform: translateY(25%);
+    font-size: 1rem;
+
+}
+
+h1
+{
+
+    color : white;
+    text-align: center;
+    padding : 10%;
+    font-size: 5rem;
 
 }
