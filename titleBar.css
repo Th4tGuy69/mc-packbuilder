@@ -1,4 +1,4 @@
-html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: hidden;}
+html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: hidden;-webkit-app-region: drag;user-select: none;}
 
 .Title
 {
@@ -7,27 +7,36 @@ html, body {margin:0;padding:0;height:100%;background-color : #36393f;overflow: 
     color : white;
     margin: 0;
     padding: 0;
+    margin-left : 10px;
 }
 
 #Text
 {
-    position: fixed;
-    width: 100%;
+    width: auto;
     height: 25px;
-    position: fixed;
-    /**-webkit-app-region: drag;*/
+    float: left;
 }
 
 #buttons
 {
-    width: 100%;
-    display: inline-block;
-    height: 100%;
+    float: right;
+    width: 75px;
+    height: 25px;
+    -webkit-app-region: no-drag;
 }
 
 #buttons img
 {
-
     float: right;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 
+#buttons img:hover
+{
+    float: right;
+    background-color: #23272A;
 }

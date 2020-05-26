@@ -1,8 +1,23 @@
-console.debug("Init");
+var expanded = false;
 
-const remote = require('electron').remote;
+function closeFunction()
+{
 
-document.getElementById("buttons").addEventListener("click", function (e) {
-    var window = remote.getCurrentWindow();
-    window.close();
-});
+    alert("Closed");
+
+}
+
+function expandFunction()
+{
+
+    expanded = !expanded;
+    alert("Expanded");
+
+}
+
+function trayFunction()
+{
+
+    alert("Tray");
+
+}
